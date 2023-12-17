@@ -1,4 +1,32 @@
 
+# Resumo Git e GitHub
+
+O presente repositório é dedicado a apresentar um breve resumo a respeito de Git e GitHub no versionamento de código, com base no curso da DIO sobre Versionamento de Código com Git e GitHub, ministrado por [Elidiana Andrade](https://github.com/elidianaandrade).
+
+## ☝️ Git
+
+O Git se trata de um sistema de controle de versões distribuído, ele é gratuito e open-source.
+
+## 🐈‍⬛ GitHub
+
+O GitHub por sua vez, trata-se de uma plataforma de hospedagem de código para controle de versões com Git, especialmente para a colaboração de equipes.
+
+## Instruções
+
+Para seguir estas instruções é necessário que você tenha instalado em seu computador o Git, seja no [Windows](https://git-scm.com/download/win), [Linux](https://git-scm.com/download/linux) ou [MacOS](https://git-scm.com/download/mac) e também possua uma conta no GitHub.
+
+## Comandos Úteis
+- Inicializando um repositório local 
+
+De maneira simples, após criar uma pasta com arquivos em seu computador, você pode criar um repositório local. Basta abrir o Git Bash na pasta em questão e dar o seguinte comando:
+
+```
+git init
+```
+
+- Conectando o repositório local ao remoto
+
+O repositório remoto é aquele presente aqui no GitHub. Sendo assim, para realizar a conexão com seu repositório local, basta, primeiramente, criar um novo repositório no GitHub e copiar o link deste repositório. Em seu terminal dê o seguinte comando, substituindo URL pelo link copiado:
 
 ```
 git remote add origin URL

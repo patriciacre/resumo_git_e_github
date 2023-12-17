@@ -1,7 +1,7 @@
 
 # Resumo Git e GitHub
 
-O presente repositório é dedicado a apresentar um breve resumo a respeito de Git e GitHub no versionamento de código, com base no curso da DIO sobre Versionamento de Código com Git e GitHub, ministrado por [Elidiana Andrade](https://github.com/elidianaandrade).
+O presente repositório é dedicado a apresentar um breve resumo a respeito de Git e GitHub no versionamento de código, com base no curso da DIO sobre Versionamento de Código com Git e GitHub, ministrado por [Elidiana Andrade](https://github.com/elidianaandrade), tendo em vista que o versionamento de código se mostra essencial para trabalhos em equipe.
 
 ## ☝️ Git
 
@@ -18,7 +18,7 @@ Para seguir estas instruções é necessário que você tenha instalado em seu c
 ## Comandos Úteis
 - Inicializando um repositório local 
 
-De maneira simples, após criar uma pasta com arquivos em seu computador, você pode criar um repositório local. Basta abrir o Git Bash na pasta em questão e dar o seguinte comando:
+De maneira simples, após criar uma pasta com arquivos em seu computador, você pode criar um repositório local. Basta abrir o Git Bash na pasta em questão e dar o seguinte comando: 
 
 ```
 git init
@@ -34,7 +34,7 @@ git remote add origin URL
 
 - Clonado um conteúdo do repositório remoto
 
-Suponhamos que você criou um arquivo, por exemplo um READ.me, em seu repositório remoto e agora deseja trazer este arquivo para seu repositório local. Para isso basta utilizar o seguinte comando, substituindo URL pelo link de seu repositório remoto, semelhante ao procedimento realizado no ponto anterior:
+Suponhamos que você criou um arquivo, por exemplo um READ.me, em seu repositório remoto, e agora deseja trazer este arquivo para seu repositório local. Para isso, podemos criar um clone deste repositório por meio do seguinte comando, substituindo URL pelo link de seu repositório remoto, semelhante ao procedimento realizado no ponto anterior:
 
 ```
 git clone URL
@@ -85,10 +85,19 @@ E caso contrário? Se você fizer as alterações no próprio repositório remot
 git pull
 ```
 
+## Conclusão
 
+Este resumo apresentou alguns comandos básicos estudados no curso de Versionamento de Código utilizando Git e GitHub da DIO, no entanto, ainda houveram outros comandos estudados, como o ```git commit --amend```, utilizado para alterar a mensagem passada em um commit, o ```git reset```, utilizado para desfazer um commit e o ```git checkout```, utilizado para alterar entre as chamadas **Branches**, que resumidamente, são ramificações do seu projeto para os commits feitos. 
+
+Além disso, o curso também abordou o tema sobre como lidar com conflitos, que ocorrem no caso de alterações na mesma linha de código no repositório local e remoto.
+
+
+É importante dar destaque para a [Documentação do Git](https://git-scm.com/), em que podem ser estudados todos os comandos que podem ser utilizados para o versionamento de código. 
 
 
 ## Contato
 
 Entre em contato comigo pelo meu 
 [LinkedIn](https://www.linkedin.com/in/patr%C3%ADcia-cresc%C3%AAncio-martins-39390925a/).
+
+
